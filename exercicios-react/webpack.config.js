@@ -3,7 +3,7 @@ const webpack = require('webpack')
 module.exports = {
     entry: './ex/index.jsx',
     output: {
-        path: __dirname + './public',
+        path: __dirname + '/public',
         filename: './bundle.js'
     },
     devServer: {
@@ -19,7 +19,8 @@ module.exports = {
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                preset: ['es2015', 'react']
+                presets: ['es2015', 'react'],
+                plugins: ['transform-object-rest-spread']
             }
         }]
     }
