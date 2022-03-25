@@ -14,10 +14,11 @@ ReactDOM.render(
         {/*<CompA value='Olá eu sou A' />
         <CompB value='Olá eu sou B' />
         <Mult />
-        <FamiliaSilva />*/}
-        <Familia>
-            <Membro name='Danilo' lastName='Isidoro' />
-            <Membro name='Diego' lastName='Isidoro' />
+        <FamiliaSilva lastName='Isidoro' />*/}
+        <Familia lastName='Isidoro'>
+            <Membro name='Danilo' />
+            <Membro name='Diego' />
+            <Membro name='Daniel' />
         </Familia>
     </div>,
     document.getElementById('root')
