@@ -8,12 +8,18 @@ import ReactDOM from 'react-dom';
 // import FamiliaSilva from './components/FamiliaSilva'
 // import Familia from './components/Familia'
 // import Membro from './components/Membro'
-import ComponenteComFuncao from './components/ComponenteComFuncao'
+// import ComponenteComFuncao from './components/ComponenteComFuncao'
+// import Pai from './components/Pai'
+// import ComponenteClasse from './components/ComponenteClasse'
+import Contador from './components/Contador'
 
 ReactDOM.render(
     <div>
+        <Contador numero={10} />
+        {/*<ComponenteClasse value='Sou Componente Classe' />
+        <Pai />
         <ComponenteComFuncao />
-        {/*<CompA value='Olá eu sou A' />
+        <CompA value='Olá eu sou A' />
         <CompB value='Olá eu sou B' />
         <Mult />
         <FamiliaSilva lastName='Isidoro' />
